@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
+
+* {
+    --X7-Blue: #1a64e9;
+    --X7-Grey: #1E1E1E;
+    --X7-Dark: #0C0404;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+}
+body {
+    background-color: var(--X7-Grey);
+}
+.parallax
+{
+    background-image: url("../../public/images/Skylands.png");
+    min-height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon {
+    position: relative;
+    top: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+#titleSection {
+    text-align: center;
+}
+#titleSection > h1 {
+    display: block;
+    margin-top: 175px;
+    font-size: xxx-large;
+}

@@ -1,0 +1,35 @@
+* {
+    --X7-Blue: #1a64e9;
+    --X7-Grey: #1E1E1E;
+    --X7-Dark: #0C0404;
+    font-size: xx-large;
+}
+.scroller {
+    margin-top: -10px;
+    height: 1.2em;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: 10em;
+}
+.scroller > span {
+    color: white;
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;
+    font-weight: bold;
+}
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+    25% {
+        top: -1.2em;
+    }
+    50% {
+        top: -2.4em;
+    }
+    75% {
+        top: -3.6em;
+    }
+}

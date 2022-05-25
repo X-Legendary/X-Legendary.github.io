@@ -1,0 +1,39 @@
+* {
+    --X7-Blue: #1a64e9;
+    --X7-Grey: #1E1E1E;
+    --X7-Dark: #0C0404;
+}
+.project {
+    margin: auto;
+    left: 50%;
+    text-align: center;
+    border: none;
+    border: solid 2px rgba(255, 255 ,255, 0.2);
+    margin-top: 25px;
+    width: 75vw;
+    height: auto;
+    border-radius: 10px;
+    /*background: var(--X7-Dark);*/
+    background: none;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255 ,255, 0.2);
+    transition: all 0.5s;
+}
+.project > p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.project:hover {
+    border: solid 2px rgba(255, 255, 255 ,1);
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255 ,1);
+}
+.project > a > button {
+    margin-bottom: 10px;
+}
+.special-project {
+    border: solid 2px rgba(255, 255 ,255, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(255, 255 ,255, 0.2);
+}
+.special-project:hover {
+    border: solid 2px rgba(255, 215, 0, 1);
+    box-shadow: 0px 8px 16px 0px rgba(255, 215, 0, 1);
+}

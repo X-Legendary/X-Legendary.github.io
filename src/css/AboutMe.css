@@ -1,0 +1,27 @@
+* {
+    --X7-Blue: #1a64e9;
+    --X7-Grey: #1E1E1E;
+    --X7-Dark: #0C0404;
+}
+/* Yes, I'm using the same CSS, becuase I'm lazy */
+#aboutMe, #contactInfo {
+    margin-left: 30px;
+    z-index: 0;
+    position: relative;
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+#aboutMe > h1, #contactInfo > h1 {
+    font-size: xxx-large;
+}
+#aboutMe > a > button, #contactInfo > button {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+#socialMedia > a > button {
+    margin-right: 10px;
+    margin-top: 10px;
+}

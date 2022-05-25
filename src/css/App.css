@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
+
+* {
+    --X7-Blue: #1a64e9;
+    --X7-Grey: #1E1E1E;
+    --X7-Dark: #0C0404;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--X7-Grey);
+}
+button {
+    cursor: pointer;
+    transition: all 0.25s;
+    font-size: x-large;
+    border-color: white;
+    width: 250px;
+    height: 50px;
+    border: solid 2px white;
+    border-radius: 10px;
+    /*background: var(--X7-Dark);*/
+    background: none;
+    font-size: 25px;
+    /* Disable select on buttons */
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
+button:hover {
+    background: white;
+    color: var(--X7-Dark)
+}
+/* Util */
+.disable-select {
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
+.mobile {
+    display: none;
+}
+@media only screen and (max-width: 700px)
+{
+    .mobile {
+        display: block;
+    }
+}
+/* Links */
+a:hover { text-decoration: none; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0.25rem;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--X7-Blue);
+    border-radius: 10px;
+}
+/* Text Selection */
+::-moz-selection {
+    background: var(--X7-Blue);
+}
