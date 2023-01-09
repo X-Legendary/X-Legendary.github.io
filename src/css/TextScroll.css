@@ -16,7 +16,8 @@
     color: white;
     position: absolute;
     top: 0;
-    animation: slide 5s infinite;
+    animation: slide 7s infinite;
+    transition-timing-function: ease-in-out;
     font-weight: bold;
 }
 @keyframes slide {

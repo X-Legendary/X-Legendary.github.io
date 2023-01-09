@@ -1,0 +1,77 @@
+*
+{
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    border: none
+}
+p
+{
+    margin: 50px;
+}
+img
+{
+    border-radius: 50%;
+    margin-top: 5vh
+}
+html
+{
+    scroll-behavior: smooth;
+}
+button
+{
+    cursor: pointer;
+    transition: all 0.25s;
+    font-size: x-large;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+#mainImage
+{
+    border-radius: 50%;
+    margin-top: 15vh;
+    width: 12.5%;
+    height: auto;
+}
+#blogImage
+{
+    border-radius: 20px;
+    padding: 10px;
+    height: auto;
+    width: 50vh;
+    margin-top: 1vh;
+}
+#title
+{  
+    margin: 50px;
+    font-size: xxx-large;
+}
+#description
+{
+    font-size: x-large;
+}
+#footer
+{
+    height: auto;
+    font-size: larger;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#link, button
+{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background: none;
+    border-radius: 20px;
+}
+#link:hover, #button:hover
+{
+    background: #1a64e9;
+}

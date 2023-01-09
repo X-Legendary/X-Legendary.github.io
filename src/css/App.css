@@ -33,7 +33,9 @@ button {
 }
 button:hover {
     background: white;
-    color: var(--X7-Dark)
+    color: var(--X7-Dark);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 /* Util */
 .disable-select {

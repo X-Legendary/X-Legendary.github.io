@@ -7,7 +7,7 @@ function TitleSection() {
         <section className="parallax" id="titleSection">
             <img src={IconImage} alt="X-Legendary" className="icon"></img>
             <h1>X-Legendary</h1>
-            <TextScroll text={["Programmer", "Web Developer", "Scripter", "CS:GO Tryhard"]} centered></TextScroll>
+            <TextScroll text={["Programmer", "Game Developer", "Scripter", "CS:GO Tryhard"]} centered></TextScroll>
         </section>
     )
 }
